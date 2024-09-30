@@ -1,0 +1,15 @@
+git rm -r --cached venv/
+git add .gitignore
+git commit -m "Remove venv and add .gitignore"
+git push
+# Ignore virtual environment
+venv/
+.env/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Docker
+*.env
+*.log
